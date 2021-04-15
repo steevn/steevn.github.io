@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Steven">
+        <meta name="description" content="👋 Hello, I'm Steven">
+        <meta name="viewport" content="width=device-width">
+        <script async defer data-domain="steevn.dev" src="https://plausible.io/js/plausible.js"></script>
+        <style>
+            /* Inter font by Rasmus Andersson, loaded from Google Fonts */
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+            /* Color vars
+             * --accent is the theme color
+             * --font is the font color
+             */
+            :root {
+                --accent: rgb(232, 162, 93);
+                --font: rgb(24, 24, 24);
+            }
+            html {
+                color: var(--font);
+                font-family: 'Inter', sans-serif;
+            }
+            body {
+                border-top: 8px solid var(--accent);
+                margin: 0;
+            }
+            a {
+                border-bottom: 2px solid var(--accent);
+                color: var(--font);
+                text-decoration: none;
+            }
+            a:hover {
+                color: var(--accent);
+            }
+            .content {
+                margin: auto;
+                max-width: 672px;
+                padding: 16px;
+                text-align: center;
+            }
+            img {
+                border: 4px solid var(--accent);
+                border-radius: 50%;
+                width: 184px;
+            }
+            h1 {
+                font-size: x-large;
+            }
+            p {
+                line-height: 1.7em;
+                text-align: left;
+            }
+            @media only screen and (min-width:600px) {
+                .content {
+                    margin-top:48px;
+                }
+                img {
+                    width:224px;
+                }
+                h1 {
+                    font-size:xx-large
+                }
+            }
+        </style>
+        <title>steevn.dev</title>
+    </head>
+    <body>
+        <div class="content">
+            <img src="assets/img/pic.jpg">
+            <h1>👋 Hello, I'm Steven</h1>
+            <p>I work as a software developer in Seattle, WA. I enjoy programming, reading and music and I value simplicity, curiosity, professionalism and honesty.</p>
+            <p>You can find me on <a href="https://github.com/steevn">GitHub</a> and <a href="https://www.linkedin.com/in/steven-lundgren-193818137">LinkedIn</a> and contact me at <a href="mailto:steven.lundgren@gmail.com">steven.lundgren@gmail.com</a>. I would like to hear from you.</p>
+        </div>
+    </body>
+</html>
